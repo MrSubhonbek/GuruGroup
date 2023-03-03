@@ -1,6 +1,9 @@
 .main {
-  @apply container px-[156px];
+  @apply container px-[156px] max-md:px-[56px];
   .title {
     @apply mt-[25px] text-[22px] font-bold text-gray-2c;
+  }
+  .content {
+    @apply grid grid-cols-4 gap-6 max-md:grid-cols-2;
   }
 }

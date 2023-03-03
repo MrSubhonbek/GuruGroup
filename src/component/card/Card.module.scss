@@ -1,0 +1,27 @@
+.card {
+  @apply box-border max-w-[300px] justify-center;
+  .wrapper {
+    @apply block max-w-sm rounded-lg;
+    .content {
+      @apply rounded-b-lg border border-gray-300 p-6;
+      .title {
+        @apply mb-2 text-xl font-medium leading-tight;
+      }
+      .oldPrice {
+        @apply mb-0 text-sm text-gray-500 line-through;
+      }
+      .price {
+        @apply mb-1 text-base;
+      }
+      .location {
+        @apply flex justify-between;
+        p {
+          @apply mb-4 text-base text-gray-500;
+        }
+      }
+    }
+    .content:hover {
+      @apply bg-gray-200;
+    }
+  }
+}

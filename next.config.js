@@ -9,6 +9,10 @@ const nextConfig = {
       urlData: "https://6075786f0baf7c0017fa64ce.mockapi.io/products",
     },
   },
+  images: {
+    domains: ["picsum.photos"],
+    formats: ["image/avif", "image/webp"],
+  },
 };
 
 module.exports = nextConfig;
